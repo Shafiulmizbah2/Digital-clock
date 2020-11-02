@@ -1,0 +1,69 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+html{
+    font-size: 62.5%;
+}
+body{
+    font-family: 'Roboto',sans-serif;
+    font-size: 2rem;
+    color: rgb(235, 231, 231);
+    background-color: rgb(27, 27, 27);
+    position: relative;
+}
+h2{
+    margin-bottom: 3rem;
+    text-transform: uppercase;
+    letter-spacing: 0.5rem;
+    font-size: 2rem;
+   /* background-image: linear-gradient(to left,rgb(49, 69, 252),rgb(191, 14, 197)); */
+   background-image: linear-gradient(to right,rgba(255, 255, 255, 0.836),rgba(24, 228, 255, 0.808));
+    -webkit-background-clip: text;
+    color: transparent;
+    
+}
+#myclock{
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column; 
+    justify-content: center;
+    align-items: center;
+}
+
+#time{
+    display: flex;
+}
+.time-box{
+   margin-right: 3rem;
+
+}
+span{
+    display: block;
+    text-align: center;
+    height: 7rem;
+    width: 10rem;
+    padding-top: 1.4rem;
+    font-size: 4rem;
+   /* background-image: linear-gradient(to right,rgba(7, 16, 97, 0.836),rgba(191, 14, 197, 0.808)); */
+    background-image: linear-gradient(to right,rgba(66, 226, 218, 0.836),rgba(21, 99, 109, 0.808));
+}
+span:last-child{
+    font-size: 1.5rem;
+    border-top: 1px solid rgba(0,0,0,0.6);
+    height: 40%;
+    text-transform: uppercase;
+}
+.box{
+    height: 12rem;
+    width: 10rem;
+    background-image: linear-gradient(to right,rgba(66, 226, 218, 0.836),rgba(21, 99, 109, 0.808));
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+p{
+    font-size: 3rem;
+}
