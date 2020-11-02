@@ -11,7 +11,10 @@ function clock() {
       
       if(h>12){
           h = h-12;
-          ses.innerHTML = "PM"
+          ses.innerHTML = "PM";
+      }
+      else{
+          ses.innerHTML = "AM";
       }
     
       hour.innerHTML=h;
